@@ -22,5 +22,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
+    'jsx-a11y/label-has-associated-control': 'off',
+    'max-len': ['error', { code: 200 }],
   },
 };
